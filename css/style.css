@@ -23,16 +23,6 @@
     src: url("../fonts/Bookish.otf");
 }
 
-@font-face {
-    font-family: ChaseCars;
-    src: url("../fonts/ChaseCars.ttf");
-}
-
-@font-face {
-    font-family: Organical;
-    src: url("../fonts/organical.ttf");
-}
-
 body {
     margin: 0px;
     padding: 0px;
