@@ -61,7 +61,7 @@ element {
 @media all and (max-width: 800px) {
     .hp-container{
        flex-direction: column;
-       height: 1150px;
+       height: 1142px;
     }
 }
 
