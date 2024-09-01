@@ -115,6 +115,7 @@ element {
     width: 100%;
     border-bottom: 1px solid black;
     box-sizing: border-box;
+    background-color: aliceblue;
 }
 
 @media all and (max-width: 800px) {

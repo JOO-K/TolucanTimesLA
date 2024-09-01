@@ -13,6 +13,7 @@
         justify-content: space-evenly;
         height: 240vw;
         flex-wrap: wrap;
+        margin-bottom: -40px;
     }
 }
 
