@@ -1,5 +1,5 @@
 .map-container{
-    width: calc(100vw - 40px);
+    width: calc(75vw - 40px);
     height: 600px;
     margin: 20px;
     border-radius: 4px;
@@ -8,7 +8,9 @@
 
 @media all and (max-width: 800px) {
     .map-container {
+        width: calc(100vw - 40px);
        height: 500px;
+       margin-bottom: -30px;
     }
 }
 
@@ -21,7 +23,7 @@
 
 @media all and (max-width: 800px) {
     .map-intro-container {
-       height: 250px;
+       height: 150px;
     }
 }
 
@@ -33,6 +35,14 @@
     font-size: 30px;
     color: #dd6d2c;
 }
+
+@media all and (max-width: 800px) {
+    .map-intro-container h1{
+       font-size: 17px;
+       margin-top: 90px;
+    }
+}
+
 .map-intro-container h2{
     margin-top: -10px;
     margin-right: 25px;
@@ -41,10 +51,9 @@
     font-size: 15px;
     color: black;
 }
-
 @media all and (max-width: 800px) {
     .map-intro-container h2{
-       font-size: 13px;
+       font-size: 12px;
     }
 }
 
@@ -56,7 +65,14 @@
     flex-direction: row;
     justify-content: space-evenly;
 
-    margin-bottom: 150px;
+    margin-bottom: 100px;
+}
+
+@media all and (max-width: 800px) {
+    .directory-container{
+        flex-direction: column;
+        padding: 20px;
+    }
 }
 
 .directory-box{
@@ -65,6 +81,12 @@
     border-width: 0px .5px .5px .5px;
     border-radius: 4px;
    
+}
+
+@media all and (max-width: 800px) {
+    .directory-box{
+        width: calc(100vw - 40px);
+    }
 }
 
 .directory-box ::-webkit-scrollbar {
