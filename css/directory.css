@@ -39,6 +39,7 @@
 @media all and (max-width: 800px) {
     .map-intro-container h1{
        font-size: 15px;
+       letter-spacing: -0.1px;
        margin-top: 90px;
     }
 }
