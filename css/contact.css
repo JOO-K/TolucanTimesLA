@@ -29,15 +29,39 @@
 
 .contact-text-container h1{
     font-family: Manrope;
-    font-size: 26px;
+    font-size: 18px;
     font-weight: 900;
     color: dodgerblue;
-    margin-bottom: 50px;
+    width: 600px;
+    margin: auto;
+    margin-bottom: 0px;
 }
 
 @media all and (max-width: 800px) {
     .contact-text-container h1{
-       font-size: 15px;
+       font-size: 13px;
+       width: 300px;
+       margin: auto;
+       margin-bottom: 50px;
+    }
+}
+
+.contact-text-container h2{
+    font-family: Manrope;
+    font-size: 18px;
+    font-weight: 300;
+    color: dodgerblue;
+    width: 400px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+@media all and (max-width: 800px) {
+    .contact-text-container h2{
+       font-size: 13px;
+       width: 300px;
+       margin: auto;
+       margin-bottom: 50px;
     }
 }
 

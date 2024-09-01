@@ -14,7 +14,9 @@
     <link type="text/css" rel="stylesheet" href="./css/footer.css">
     <link type="text/css" rel="stylesheet" href="./css/contact.css">
 
-    <link rel="icon" type="image/png" href="images/favicon_kimiko.png">
+    <link type="text/css" rel="stylesheet" href="./css/publications.css">
+
+    <link rel="icon" type="image/png" href="./images/TTT_Favicon.png">
 
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
 
@@ -51,11 +53,12 @@
             </a>
 
             <a href="https://ko-fi.com/tolucantimesla#paypalModal">
-                <div class="mobile-donate-box"><img src="/images/Donate_Icon.png"></div>
+                <div class="mobile-donate-box"><img src="./images/icons/Donate_Icon.png"></div>
             </a>
 
-            <img src="/images/TT_Swan_BacktoSchool.png">
-            <a href="/publications/publicationshome.html">
+            <img src="./images/TT_Swan_BacktoSchool.png">
+
+            <a href="./publicationshome.html">
                 <div style="background-color: #de8c35; width: 180px;" class="mobile-sub-box">Prints & Publications</div>
             </a>
             <a href="./ourfriends.html">
@@ -153,7 +156,7 @@
 
         <a href="https://ko-fi.com/tolucantimesla#paypalModal">
             <div class="donate-container">
-                <img src="./images/Donate_Icon.png">
+                <img src="./images/icons/Donate_Icon.png">
                 <!-- <h1>Support by Donating</h1> -->
             </div>
         </a>
@@ -163,7 +166,8 @@
     <div class="contact-container">
 
         <div class="contact-text-container">
-            <h1>Leave Us A Message!<br>Serving Toluca Lake Since 1937</h1>
+            <h1>Have any news worthy stories for us to publish in our next issue? Let us help! It takes a village to help make a change. We are open to all insight and stories in your area.</h1>
+            <br><br><h2 id="contactus"></h2>
         </div>
 
         <form action="https://api.web3forms.com/submit" method="POST" class="form-container">
@@ -188,10 +192,11 @@
 
         </form>
 
-        <img src="https://previews.dropbox.com/p/thumb/ACaVVynNpQrtV7uZQzgkM3Dnyv1rzIw_OimNJiDfSHnkar4XWHkQG-lHq2oW4fkHT0vWDJhslVovgPO_ksx2ZHyiyWN7_ykcGFbQKTVftH2zEvejI5ZbnnL4g4sTBCFHW_Pri7HaaItzI0PIp6uvHmPmBmOyxyXC9t_OFeZ6v9ykB7jCSnMjtVkC7iwSWMplMaY3_55zy-lIOoPYUUaINJLXSPX685lqJF9vnhbZfMVU7ONXMvj_gXUAyLW6bF-b7MUPDslovdObzTfERyklbYlz5no69lpHAKvOp09lL_MQq4iv45yL8w2rpkuiLlKYMsw/p.png">
+        <img src="./images/Contactus_bgimg.png">
 
     </div>
 
+  
     <footer>
 
         <a href="./index.html">
@@ -200,24 +205,67 @@
 
         <div class="footer-links">
             <a href="./aboutus.html">
-                <div class="footer-link"><img src="./images/AbouUs_Icon.png"></div>
+                <div class="footer-link"><img src="./images/icons/AbouUs_Icon.png"></div>
                 <h1>About The Tolucan Times</h1>
             </a>
         </div>
         <div class="footer-links">
             <a href="./contactus.html">
-                <div class="footer-link"><img src="./images/Contact_Icon.png"></div>
+                <div class="footer-link"><img src="./images/icons/Contact_Icon.png"></div>
                 <h1>Contact Us</h1>
             </a>
         </div>
         <div class="footer-links">
             <a href="https://ko-fi.com/tolucantimesla#paypalModal">
-                <div class="footer-link"><img src="./images/FooterDonate_Icon.png"></div>
+                <div class="footer-link"><img src="./images/icons/FooterDonate_Icon.png"></div>
                 <h1>Donate / Support</h1>
             </a>
         </div>
 
+        <div class="footer-bg">
+            <img src="./images/Footer_Bg_Desktop.png">
+        </div>
+
+        <a href="./index.html">
+            <div class="mobile-footer">
+                <img src="./images/TTT_Logo.png">
+            </div>
+        </a>
+
+        <div class="mobile-footer-links">
+            <a href="./aboutus.html">
+                <h1>About Us</h1>
+            </a>
+            <a href="./contactus.html">
+                <h1>Contact Us</h1>
+            </a>
+            <a href="https://ko-fi.com/tolucantimesla#paypalModal">
+                <h1>Donate / Support</h1>
+            </a>
+        </div>
+
+        <div class="mobile-footer-bg">
+            <img src="./images/Footer_Bg.png">
+        </div>
+
+
+
+
     </footer>
+
+    <script>
+        var app = document.getElementById('contactus');
+    
+    var typewriter = new Typewriter(app, {
+        loop: true,
+        delay: 5,
+    });
+    
+    typewriter.typeString('Businesses can also click the contact button below for Ad pricing and publication schedules. ')
+        .pauseFor(250000)
+        .deleteAll()
+        .start();
+    </script>
 
 
     <script>
