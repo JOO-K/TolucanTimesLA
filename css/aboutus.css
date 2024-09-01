@@ -28,13 +28,14 @@
     font-family: Bookish;
     font-size: 20px;
     line-height: 30px;
-    width: 200px;
+    width: 500px;
 }
 
 @media all and (max-width: 800px) {
     .aboutus-intro-container h1{
         font-size: 15px;
         line-height: 25px;
+        width: 250px;
     }
 }
 
