@@ -58,7 +58,7 @@
     width: 100%;
     height: 295px;
     background-color: white;
-    animation: ease .1s mobileload;
+    
     transform-origin: top;
     padding: 20px 0px;
     margin: 0px;
