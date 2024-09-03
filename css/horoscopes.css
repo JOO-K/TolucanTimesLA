@@ -160,6 +160,12 @@
     margin-bottom: -20px;
 }
 
+@media all and (max-width: 800px) {
+    .horoscope-box h3{
+       margin-bottom: -30px;
+    }
+}
+
 .horoscope-box p{
     font-family: Manrope;
     font-size: 15px;
