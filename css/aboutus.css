@@ -24,6 +24,10 @@
     }
 }
 
+.aboutus-intro-container img{
+    width: 250px;
+}
+
 .aboutus-intro-container h1{
     font-family: Bookish;
     font-size: 20px;
@@ -55,30 +59,37 @@
 
 .writer-container{
     width: 100vw;
-    height: 50vw;
     display: flex;
     flex-direction: row;
-
+    padding: 20px;
+    box-sizing: border-box;
+    margin-bottom: -30px;
 }
 
 @media all and (max-width: 800px) {
     .writer-container{
-        height: 200vw;
+     height: auto;
         flex-direction: column;
+        padding: 0px;
     }
 }
 
 
 .writer-box{
     width: 50vw;
-    height: 50vw;;
+    height: 20vw;
     background-color: whitesmoke;
+    padding: 10px;
+    margin: 10px;
+    box-sizing: border-box;
 }
 
 @media all and (max-width: 800px) {
     .writer-box{
         width: 100vw;
-        height: 100vw;
+        height: 70vw;
+        margin: 0px;
+      
     }
 }
 
