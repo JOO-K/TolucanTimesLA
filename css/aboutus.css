@@ -12,7 +12,7 @@
 
 .aboutus-intro-container{
     
-    width: 500px;
+    width: 800px;
     margin: auto;
     margin-top: 200px;
     margin-bottom: 100px;
@@ -32,7 +32,7 @@
     font-family: Bookish;
     font-size: 20px;
     line-height: 30px;
-    width: 500px;
+    width: 800px;
 }
 
 @media all and (max-width: 800px) {
@@ -55,6 +55,11 @@
     .aboutus-intro-container h2{
         font-size: 15px;
     }
+}
+
+.aboutus-intro-container img{
+    width: 100%;
+    margin-top: 50px;
 }
 
 .writer-container{
