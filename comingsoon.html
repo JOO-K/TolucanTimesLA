@@ -8,10 +8,11 @@
 
     <link type="text/css" rel="stylesheet" href="./css/style.css">
     <link type="text/css" rel="stylesheet" href="./css/nav.css">
-
+    <link type="text/css" rel="stylesheet" href="./css/swiper.css">
     <link type="text/css" rel="stylesheet" href="./css/frontpage.css">
     <link type="text/css" rel="stylesheet" href="./css/weather.css">
     <link type="text/css" rel="stylesheet" href="./css/footer.css">
+    <link type="text/css" rel="stylesheet" href="./css/contact.css">
 
     <link type="text/css" rel="stylesheet" href="./css/publications.css">
 
@@ -162,87 +163,9 @@
 
     </div>
 
+   <div class="comingsoon" style="height: 100vh; width: 100vw; text-align: center;"><h1 style="margin-top: 200px; font-family: Manrope;">Coming Soon!</h1></div>
 
-    <div class="publications-container" style="border-bottom: 1px solid black; margin-top: 130px; margin-bottom: 50px;">
-
-        <div class="publications-box">
-            <a href="https://www.calameo.com/read/00770541394d6c8889604?page=1">
-                <img
-                    src="./images/covers/Publications_June2024_Cover.png">
-                <h1>Issue No.06</h1>
-                <h2>Artwork By<br>Franky Muniz</h2>
-            </a>
-        </div>
-        <div class="publications-box">
-            <a href="https://www.calameo.com/read/007705413e321d0de8e33?page=1">
-                <img
-                    src="./images/covers/Publications_June2024_Cover.png">
-                <h1>Issue No.05</h1>
-                <h2>Artwork By<br>Franky Muniz</h2>
-            </a>
-        </div>
-        <div class="publications-box">
-            <a href="https://www.calameo.com/read/00770541392365e5b71eb?page=1">
-                <img
-                    src="./images/covers/Publications_April2024_Cover.png">
-                <h1>Issue No.04</h1>
-                <h2>Artwork By<br>Franky Muniz</h2>
-            </a>
-        </div>
-        <div class="publications-box">
-            <a href="https://www.calameo.com/read/007705413dc565bd0045a?page=1">
-                <img
-                    src="./images/covers/Publications_March2024_Cover.png">
-                <h1>Issue No.03</h1>
-                <h2>Artwork By<br>Franky Muniz</h2>
-            </a>
-        </div>
-        <div class="publications-box">
-
-            <a href="https://www.calameo.com/read/00770541394d6c8889604?page=1">
-                <img
-                    src="./images/covers/Publications_Feb2024_Cover.png">
-                <h1>Issue No.02</h1>
-                <h2>Artwork By<br>Franky Muniz</h2>
-            </a>
-
-        </div>
-        <div class="publications-box">
-            <a href="https://www.calameo.com/read/0077054139728fdfa15f1?page=1">
-                <img
-                    src="./images/covers/Publications_Dec2024_Cover.png">
-                <h1>Issue No.01</h1>
-                <h2>Artwork By<br>Franky Muniz</h2>
-            </a>
-        </div>
-
-    </div>
-
-    <div class="other-publications-container">
-        <div class="history-container">
-            <h1>The Tolucan Times has been a trusted voice in the Los Angeles community since 1937, 
-                delivering local news and stories that matter. With a rich history of service, 
-                it continues to inform, entertain, and connect residents. The publication remains 
-                a cherished source of information for generations of Angelenos.
-            
-            
-                <br><br>
-                <a href="./aboutus.html">More About Us</a>
-            </h1>
-            <img src="https://files.tolucalake.com/wp-content/uploads/2019/09/vintage-vignettes-1-bobs-big-boy-toluca-lake-1954.jpg">
-        </div>
-        <div class="obituary-container">
-            <h2>ARTICLES</h2>
-    
-                <a href="./article_01.html"><h1>DAN CARLIN, A HARDCORE TOLUCAN</h1></a>
-                <a href="./article_02.html"><h1>DAN CARLIN, A HARDCORE TOLUCAN</h1></a>
-                <a href="./article_03.html"><h1>DAN CARLIN, A HARDCORE TOLUCAN</h1></a>
-                <a href="./article_04.html"><h1>DAN CARLIN, A HARDCORE TOLUCAN</h1></a>
-                
-    
-        </div>
-    </div>
-
+  
     <footer>
 
         <a href="./index.html">
@@ -301,6 +224,9 @@
 
 
 
+
+
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"
         integrity="sha512-qTXRIMyZIFb8iQcfjXWCO8+M5Tbc38Qi5WzdPOYZHIlZpzBHG3L3by84BBBOiRGiEb7KKtAOAs5qYdUiZiQNNQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -310,8 +236,8 @@
 
     <!-- Mobile Nav Button -->
     <script>
-        $("#mobilenav").click(function () {
-            $("#mobilenavbox").toggle();
+            $("#mobilenav").click(function () {
+                $("#mobilenavbox").toggle();
         });
     </script>
 
@@ -319,7 +245,7 @@
     <!-- Marquee Initiate -->
     <script>
 
-        function Marquee(selector, speed) {
+            function Marquee(selector, speed) {
             const parentSelector = document.querySelector(selector);
             const clone = parentSelector.innerHTML;
             const firstElement = parentSelector.children[0];
@@ -333,16 +259,16 @@
             setInterval(function () {
                 firstElement.style.marginLeft = `-${i}px`;
                 if (i > firstElement.clientWidth) {
-                    i = 0;
+                i = 0;
                 }
-                i = i + speed;
+            i = i + speed;
             }, 0);
         }
 
-        //after window is completed load
-        //1 class selector for marquee
-        //2 marquee speed 0.2
-        window.addEventListener('load', Marquee('.marquee', 0.15))
+            //after window is completed load
+            //1 class selector for marquee
+            //2 marquee speed 0.2
+            window.addEventListener('load', Marquee('.marquee', 0.15))
 
     </script>
 
