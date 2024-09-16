@@ -100,13 +100,7 @@
     text-justify: pretty;
 }
 
-.paragraph-container p:first-child::first-letter {
-    color: black;
-    padding-right: 5px;
-  
-    -webkit-initial-letter: 3;
-    initial-letter: 3;
-}
+
 
 .next-previous-container{
     width: 290px;
