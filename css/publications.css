@@ -161,6 +161,7 @@
 @media all and (max-width: 800px) {
     .obituary-container h1{
         font-size: 12px;
+        letter-spacing: -.2px;
         line-height: 20px;
     }
 }
