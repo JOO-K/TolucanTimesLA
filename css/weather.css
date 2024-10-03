@@ -44,7 +44,7 @@
     }
 }
 
-.today .temp-night{
+.today .temp{
     position: absolute;
 
     left: 334px;
@@ -58,7 +58,7 @@
 }
 
 @media all and (max-width: 800px) {
-    .today .temp-night{
+    .today .temp{
        left: auto;
        right: 10px;
        top: 10px;
