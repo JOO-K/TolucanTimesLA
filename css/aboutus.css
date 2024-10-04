@@ -16,11 +16,14 @@
     margin: auto;
     margin-top: 200px;
     margin-bottom: 100px;
+    box-sizing: border-box;
 }
 
 @media all and (max-width: 800px) {
     .aboutus-intro-container {
-        width: 250px;
+        width: 100%;
+        padding: 20px;
+        margin-top: 70px;
     }
 }
 
@@ -39,7 +42,7 @@
     .aboutus-intro-container h1{
         font-size: 15px;
         line-height: 25px;
-        width: 250px;
+        width: 100%;
     }
 }
 
@@ -76,6 +79,7 @@
      height: auto;
         flex-direction: column;
         padding: 0px;
+        margin-bottom: 0px;
     }
 }
 
@@ -94,7 +98,7 @@
         width: 100vw;
         height: 70vw;
         margin: 0px;
-      
+        margin-bottom: 10px;
     }
 }
 
