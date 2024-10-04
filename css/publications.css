@@ -40,12 +40,18 @@
     text-decoration: none;
 }
 
-.publications-box h1 {
+.publications-box h1{
     font-family: Manrope;
     font-weight: 900;
     font-size: 18px;
     color: black;
     text-decoration: underline;
+}
+
+@media all and (max-width: 800px) {
+    .publications-box h1{
+        font-size: 13px;
+    }
 }
 
 .publications-box h2 {
