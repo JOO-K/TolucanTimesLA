@@ -1,4 +1,6 @@
-
+#nav-ph{
+    z-index: 1000;
+}
 
 .nav-container {
     position: absolute;
