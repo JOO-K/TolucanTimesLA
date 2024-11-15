@@ -13,3 +13,7 @@ $.get("./html/slideComp.html", function(data){
 $.get("./html/publicationComp.html", function(data){
     $("#publication-ph").replaceWith(data);
 });
+
+$.get("./html/homepageboxnavComp.html", function(data){
+    $("#homepageboxnav-ph").replaceWith(data);
+});

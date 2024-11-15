@@ -49,3 +49,29 @@
     </div>
 
 </div>
+
+
+    <!-- Initialize Swiper -->
+    <script type="module">
+
+
+        var galleryTop = new Swiper('.gallery-top', {
+            spaceBetween: 10,
+            effect: 'fade',
+            grabCursor: false,
+            allowTouchMove: false,
+            loop: true,
+            centeredSlides: true,
+            slidesPerView: 'auto',
+            autoplay: {
+                delay: 8000,
+                disableOnInteraction: false,
+            },
+
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+
+        });
+    </script>
